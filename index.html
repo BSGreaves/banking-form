@@ -31,10 +31,25 @@
 			<br>
 		</form>
 		<form>
-			<label name="typeofloan"> 
+			<label name="typeofloan">Type of loan:</label>
+			<select name="typeofloan">
+				<option value="Commercial">Commercial</option>
+				<option value="realestate">Real Estate</option>
+				<option value="personal">Personal</option>
+				<option value="mortgage">Mortgage</option>
+			</select>
+			<br>
+			<label for="amount">Amount Requested:</label>
+			<input type="text" name="amount" id="amount">
+			<br>
+			<label for="loanlength">Loan Length:</label>
+
+			<input type="radio" name="loanlength" value="5years">5 Years
+			<input type="radio" name="loanlength" value="15years">15 Years
+			<input type="radio" name="loanlength" value="30years">30 Years
+			<input type="checkbox"
 		</form>
 	</body>
-
 </html>
 
 Applicant first name
