@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: georgia, sans-serif;
   color: #384047;
 }
 
@@ -117,3 +117,12 @@ label.light {
   }
 
 }
+
+input.validate:invalid {
+  background: hsla(0, 90%, 70%, 1);
+}
+
+input.validate:valid {
+  background: hsla(100, 90%, 70%, 1);
+}
+
