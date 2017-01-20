@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Loan Application</title>>
+		<link rel="stylesheet" type="text/css" href="main.css"
+	</head>
+	<body>
+		<h1>Applicant Instructions</h1><h4>Please input the following information:</h4>
+		<form action="" method="post">
+			<label for="firstname">First Name</label>
+			<input type="text" name="firstname" id="firstname">
+			<br>
+			<label for="middleinitial">Middle Initial</label>
+			<input type="text" name="middleinitial" id="middleinitial">
+			<br>
+			<label for="lastname">Last Name</label>
+			<input type="text" name="lastname" id="lastname">
+			<br>
+			<label for="address">Address</label>
+			<input type="text" name="address" id="address">
+			<br>
+			<label for="occupation">Occupation</label>
+			<input type="text" name="occupation" id="occuption">
+			<br>
+			<label for="employer">Employer</label>
+			<input type="text" name="employer" id="employer">
+			<br>
+			<label for="employeraddress">Employer Address</label>
+			<input type="text" name="employeraddress" id="employeraddress">
+			<br>
+		</form>
+		<br>
+		<form>
+			<label name="typeofloan">Type of loan:</label>
+			<select name="typeofloan">
+				<option value="Commercial">Commercial</option>
+				<option value="realestate">Real Estate</option>
+				<option value="personal">Personal</option>
+				<option value="mortgage">Mortgage</option>
+			</select>
+			<br>
+			<label for="amount">Amount Requested:</label>
+			<input type="text" name="amount" id="amount">
+			<br>
+			<label for="loanlength">Loan Length:</label>
+			<input type="radio" name="loanlength" value="5years">5 Years
+			<input type="radio" name="loanlength" value="15years">15 Years
+			<input type="radio" name="loanlength" value="30years">30 Years<br>
+			<p>Special Conditions:</p>
+			<input type="checkbox" id="specCon1" value="specCon1"><label for ="specCon1">I have a down payment</label><br>
+			<input type="checkbox" id="specCon2" value="specCon2"><label for ="specCon2>">Out-of-state resident</label><br>
+			<input type="checkbox" id="specCon3" value="specCon3"><label for="specCon3">Married</label><br>
+			<input type="checkbox" id="specCon4" value="specCon4"><label for="specCon4">Loan will be co-signed</label><br>
+			<br>
+
+			<label for="notesAndComments">Notes and Comments:</label><textarea id="notesAndComments" rows="4" cols="20"></textarea><br>
+		</form>
+		<br>
+		<form>
+			<label for="email">Email address:</label><input type="text" name="email" id="email"><br>
+			<label for="telephone">Telephone number:</label><input type="text" name="telephone" id="telephone"><br>
+			<label for="linkedin">LinkedIn URL:</label><input type="text" name="linkedin" id="linkedin"><br>
+		</form>
+	</body>
+</html>
